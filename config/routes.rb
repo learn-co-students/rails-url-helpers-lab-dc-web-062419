@@ -7,7 +7,7 @@ Rails.application.routes.draw do
 
   # get 'view', to: 'students#index'
 
-  resources :students, only: [:index, :show, :activate]
+  resources :students, only: [:index, :show, :activate, :activate_student]
 
   # get 'students/:id/activate', to: 'students#activate'
 
